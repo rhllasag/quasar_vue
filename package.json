@@ -20,14 +20,15 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@quasar/app-webpack": "^3.13.0",
+    "@types/node": "^20.14.8",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.0.0",
     "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
     "prettier": "^2.5.1",
-    "@types/node": "^20.14.8",
-    "@quasar/app-webpack": "^3.13.0"
+    "sass-embedded": "^1.80.4"
   },
   "overridesComments": {
     "typescript-1": "npm and pnpm hoist newer version of TypeScript, which is incompatible with app-webpack v3 due to fork-ts-checker-webpack-plugin",
